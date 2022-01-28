@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dimen10dp"
+        android:id="@+id/quantityprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="0.4">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/productimag" />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Productname"
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/price1"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:id="@+id/quantity1"
+            android:textColor="@color/black"
+             />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.13"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:id="@+id/totalprice"
+            android:textColor="@color/black"
+             />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.07"
+          android:src="@drawable/ic_baseline_delete_outline_24"/>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/color_ash"
+        android:layout_below="@id/quantityprice"/>
+
+    </RelativeLayout>
+

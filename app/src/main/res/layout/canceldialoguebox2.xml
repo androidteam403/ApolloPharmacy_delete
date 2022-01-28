@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+
+        android:layout_width="380dp"
+        android:layout_height="110dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/dimen10dp"
+        android:layout_marginTop="@dimen/dimen10dp"
+        android:layout_marginEnd="@dimen/dimen10dp"
+        android:layout_marginBottom="@dimen/dimen10dp"
+        android:background="@drawable/cornersfordialog2">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Do you want to cancel this Transaction?"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@id/text"
+            android:background="@color/color_ash" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view1"
+            android:layout_centerInParent="true"
+            android:background="@color/color_ash" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:orientation="horizontal"
+            android:paddingTop="15dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/yes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view1"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="Yes"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view1"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="No"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+</layout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lineary"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="@dimen/dimen10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:weightSum="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:id="@+id/imgforsummary5" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="0.4"
+                android:layout_marginStart="5dp">
+
+                <TextView
+                    android:id="@+id/adrsproductname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="productname5"
+
+                    android:textStyle="bold"
+                    android:textSize="11dp"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:id="@+id/adrsprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="price5"
+                    android:textSize="11dp"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="quantity5"
+                android:textSize="11dp"
+                android:id="@+id/adrsquantity"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:text="total5"
+                android:textSize="11dp"
+                android:textStyle="bold"
+                android:id="@+id/adrstotalprice"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/color_ash"
+            android:layout_below="@id/lineary"/>
+
+    </RelativeLayout>
+</layout>

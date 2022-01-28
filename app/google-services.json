@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "730086623249",
+    "project_id": "apollopharmacy-ac4ec",
+    "storage_bucket": "apollopharmacy-ac4ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730086623249:android:ca14832a10354b29b689b0",
+        "android_client_info": {
+          "package_name": "com.example.apollopharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730086623249-62i5g7lugave8se9kv2oquhr3bqufdhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZGMRNY42A_9NAdyMrcnzREyZPTD5c9kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730086623249-62i5g7lugave8se9kv2oquhr3bqufdhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
