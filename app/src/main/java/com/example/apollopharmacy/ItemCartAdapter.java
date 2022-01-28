@@ -22,7 +22,7 @@ public class ItemCartAdapter extends RecyclerView.Adapter<ItemCartAdapter.ItemCa
 
     Double price;
     Integer quantity;
-    Double total;
+    Double totalsdfh;
 
     List<WhatsNewModelClass.Recently> myListData;
 
